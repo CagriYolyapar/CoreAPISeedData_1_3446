@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAPISeedData_1", "CoreAPISeedData_1\CoreAPISeedData_1.csproj", "{5430273C-7E91-4741-B68D-0E74B0F2F699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5430273C-7E91-4741-B68D-0E74B0F2F699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5430273C-7E91-4741-B68D-0E74B0F2F699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5430273C-7E91-4741-B68D-0E74B0F2F699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5430273C-7E91-4741-B68D-0E74B0F2F699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2334FC2-3E03-456A-912D-D106A66AEE82}
+	EndGlobalSection
+EndGlobal
