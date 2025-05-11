@@ -87,5 +87,24 @@ namespace CoreAPISeedData_1.Controllers
         }
 
         //Kategori Güncelleme
+        [HttpPut]
+        public IActionResult UpdateCategory(UpdateCategoryRequestModel category)
+        {
+            Category original = _context.Categories.Find(category.Id);
+            original.CategoryName = category.CategoryName;
+            original.Description = category.Description;
+            _context.SaveChanges();
+            return Ok("Kategori güncellendi");
+        }
+
+        //Kategori Silme
+
+        [HttpDelete]
+        public IActionResult DeleteCategory(int id)
+        {
+            _context.Categories.Remove(_context.Categories.Find(id));
+            _context.SaveChanges();
+            return Ok("Kategori silindi");
+        }
     }
 }
